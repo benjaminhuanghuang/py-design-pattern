@@ -5,7 +5,10 @@
 # Comparison
 
 
-# Real-life example
+# Real-life Example
 
 
-# Software example
+# Software Example
+
+
+# Use Case

@@ -12,7 +12,7 @@
     family of related products
 
 
-# Real-life example
+# Real-life Example
         An example of the Factory Method pattern used in reality is in plastic toy
     construction. The molding powder used to construct plastic toys is the same,
     but different figures can be produced using different plastic molds. 
@@ -20,7 +20,7 @@
     figure that we want (duck and car) and the output is the plastic figure that we requested.
 
 
-# Software example
+# Software Example
         The Django framework uses the Factory Method pattern for creating the fields
     of a form. The forms module of Django supports the creation of different kinds
     of fields (CharField, EmailField) and customizations (max_length, required)
