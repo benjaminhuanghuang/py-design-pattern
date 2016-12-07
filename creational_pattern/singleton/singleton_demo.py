@@ -1,7 +1,4 @@
 #http://blog.jobbole.com/62023/
-'''
-
-'''
 class OnlyOne:
     class __OnlyOne:
         def __init__(self, arg):
