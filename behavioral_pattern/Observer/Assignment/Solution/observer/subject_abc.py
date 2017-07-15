@@ -8,9 +8,11 @@ class AbsSubject(object):
     def attach(self, observer):
         if not isinstance(observer, AbsObserver):
             raise TypeError('Observer not derived from AbsObserver')
+        # add new observer to the set
         self._observers |= {observer}
         
     def detach(self, observer):
+        # remove observer
         self._observers -= {observer}
         
     def notify(self, value=None):
