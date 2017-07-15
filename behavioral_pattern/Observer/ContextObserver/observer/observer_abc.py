@@ -6,7 +6,8 @@ class AbsObserver(object):
     @abc.abstractmethod    
     def update(self, value):
         pass
-    
+
+    # Avoid dangling reference by using "with"
     def __enter__(self):
         return self
 
