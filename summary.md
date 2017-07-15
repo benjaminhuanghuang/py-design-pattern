@@ -1,11 +1,15 @@
-#Creational Patterns
+## Design Pattern Classifiction
+
+## Creational Patterns [Object creation]
+  
   Abstract Factory	Creates an instance of several families of classes
   Builder	Separates object construction from its representation
   Factory Method	Creates an instance of several derived classes
   Prototype	A fully initialized instance to be copied or cloned
   Singleton	A class of which only a single instance can exist
 
-#Structural Patterns
+## Structural Patterns [Object relationships]
+  
   Adapter	Match interfaces of different classes
   Bridge	Separates an object’s interface from its implementation
   Composite	A tree structure of simple and composite objects
@@ -14,7 +18,8 @@
   Flyweight	A fine-grained instance used for efficient sharing
   Proxy	An object representing another object
 
-#Behavioral Patterns
+## Behavioral Patterns [Object interaction & responsibility]
+  
   Chain of Resp.	A way of passing a request between a chain of objects
   Command	Encapsulate a command request as an object
   Interpreter	A way to include language elements in a program
