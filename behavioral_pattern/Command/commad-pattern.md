@@ -10,6 +10,6 @@
     
 
 ## Demo
-   
+   BeforeCommand (use if-else to run the command according to the command line option)
 
     
