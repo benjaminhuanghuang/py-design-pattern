@@ -1,5 +1,13 @@
 
 # Description
+    - Provide an interface for creating families of related objects without specifying their concrete
+
+# How to
+    - Create the family of interface or abstract base classes
+    - Create the concrete classes for each of these
+    - Create an abstract factory which applies to the whole family
+    - Create a concrete factory for each base class
+    
         A benefit of the Abstract Factory that is usually not very visible from a user's
     point of view when using the Factory Method is that it gives us _the ability to modify
     the behavior of our application dynamically (in runtime) by changing the active
