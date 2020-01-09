@@ -1,6 +1,3 @@
-# python_designpattern
+# python design pattern
 
 
-Reference:
-    Mastering Python Design Patterns
-    https://github.com/cundi/Mastering.Python.Design.Patterns
